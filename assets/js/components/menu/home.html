@@ -1,67 +1,67 @@
 <div>
 
-  <!-- Topbar Start -->
-  <div class="container-fluid px-5 d-none d-lg-block">
-   <div class="row gx-5">
-       <div class="col-lg-4 text-center py-3">
-           <div class="d-inline-flex align-items-center">
-               <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
-               <div class="text-start"> 
-                   <span>Luanda, Município de Talatona, Bairro Benfica, Rua Dona Xepa, Casa s/n.º, Junto ao Colégio Colina do
-                    Sol.SA</span>
-               </div>
-           </div>
-       </div>
-       <div class="col-lg-4 text-center border-start border-end py-3">
-           <div class="d-inline-flex align-items-center">
-               <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
-               <div class="text-start">
-                   <h6 class="text-uppercase fw-bold">Email</h6>
-                   <span>geral@aclyaugusto.com</span>
-               </div>
-           </div>
-       </div>
-       <div class="col-lg-4 text-center py-3">
-           <div class="d-inline-flex align-items-center">
-               <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
-               <div class="text-start">
-                   <h6 class="text-uppercase fw-bold">Tell</h6>
-                   <span>+244 923 421313 / +244 923 310 820</span>
-               </div>
-           </div>
-       </div>
-   </div>
-</div>
-<!-- Topbar End -->
-
-
-<!-- Navbar Start -->
-<div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5 pe-lg-0">
-   <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0">
-       <a href="index.html" class="navbar-brand">
-           <h1 class="m-0 display-4 text-uppercase text-white"> 
-                <strong>  <img src="./assets/img/logo.png" class="img-fluid" alt="50" style="height: 50px;"></strong>
-            </h1>
-      
-        </a>
-       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-           <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarCollapse">
-           <div class="navbar-nav ms-auto py-0">
-
-               <a :class="{ active_item:activo1 }" class="nav-item nav-link active" @click="homeMenu()" href="#/">Home</a>
-               <a :class="{ active_item:activo2 }" class="nav-item nav-link" @click="sobreMenu()" href="#/sobre">Sobre nós</a>
-               <a :class="{ active_item:activo3 }" class="nav-item nav-link" @click="servicoMenu()" href="#/servicos">Serviços</a>
-             
-               <a :class="{ active_item:activo5 }" class="nav-item nav-link" @click="contactoMenu()" href="#/contato">Contato</a>
-               <a href="" class="nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block">WhatsApp <i class="bi bi-arrow-right"></i></a>
-           </div>
-       </div>
-   </nav>
-</div>
-<!-- Navbar End -->
- 
-</div>
-
-
+    <!-- Topbar Start -->
+    <div class="container-fluid px-5 d-none d-lg-block">
+     <div class="row gx-5">
+         <div class="col-lg-4 text-center py-3">
+             <div class="d-inline-flex align-items-center">
+                 <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                 <div class="text-start"> 
+                     <span>Luanda, Município de Talatona, Bairro Benfica, Rua Dona Xepa, Casa s/n.º, Junto ao Colégio Colina do
+                      Sol.SA</span>
+                 </div>
+             </div>
+         </div>
+         <div class="col-lg-4 text-center border-start border-end py-3">
+             <div class="d-inline-flex align-items-center">
+                 <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                 <div class="text-start">
+                     <h6 class="text-uppercase fw-bold">Email</h6>
+                     <span>geral@aclyaugusto.com</span>
+                 </div>
+             </div>
+         </div>
+         <div class="col-lg-4 text-center py-3">
+             <div class="d-inline-flex align-items-center">
+                 <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                 <div class="text-start">
+                     <h6 class="text-uppercase fw-bold">Tell</h6>
+                     <span>+244 923 421313 / +244 923 310 820</span>
+                 </div>
+             </div>
+         </div>
+     </div>
+  </div>
+  <!-- Topbar End -->
+  
+  
+  <!-- Navbar Start -->
+  <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5 pe-lg-0">
+     <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0">
+         <a href="index.html" class="navbar-brand">
+             <h1 class="m-0 display-4 text-uppercase text-white"> 
+                  <strong>  <img src="./assets/img/logo.png" class="img-fluid" alt="50" style="height: 50px;"></strong>
+              </h1>
+        
+          </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+             <div class="navbar-nav ms-auto py-0">
+  
+                 <a :class="{ active_item:activo1 }" class="nav-item nav-link active" @click="homeMenu()" href="#/">Home</a>
+                 <a :class="{ active_item:activo2 }" class="nav-item nav-link" @click="sobreMenu()" href="#/sobre">Sobre nós</a>
+                 <a :class="{ active_item:activo3 }" class="nav-item nav-link" @click="servicoMenu()" href="#/servicos">Serviços</a>
+               
+                 <a :class="{ active_item:activo5 }" class="nav-item nav-link" @click="contactoMenu()" href="#/contato">Contato</a>
+                 <a href="" class="nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block">WhatsApp <i class="bi bi-arrow-right"></i></a>
+             </div>
+         </div>
+     </nav>
+  </div>
+  <!-- Navbar End -->
+   
+  </div>
+  
+  
