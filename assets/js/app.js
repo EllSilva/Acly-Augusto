@@ -9,9 +9,6 @@ Vue.component('p-menu', page_menu)
 import page_footer from './components/footer/home.js'
 Vue.component('p-footer', page_footer)
 
-import componente_servicos from './components/servico/home.js'
-Vue.component('c-servicos', componente_servicos)
-
 import page_home from './view/home/home.js'
 Vue.component('p-home', page_home)
 
